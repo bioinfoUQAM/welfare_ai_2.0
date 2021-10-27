@@ -25,13 +25,13 @@ To run this code, you will need an Anaconda environment prepackaged with Python 
 * [python 3.7.11](https://www.python.org/downloads/release/python-3711/)
 
 ### Other libraries 
-You can install these libraries using  `conda install`. 
+You can install these libraries using  ` ` ` conda install -c conda-forge --library_name ` ` `.
 * matplotlib 3.4.2
 * scikit-learn 0.24.2
 * numpy 1.19.2
 * pandas 1.2.4
 * keras-gpu 2.3.1
-* tensorflow gpu 2.1.0
+* tensorflow-gpu 2.1.0
 
 ## Running this Code
 Download all the files from the zip folder in this repository. Open a terminal and cd to the project folder (if you are using a python environment, make sure to activate it before). You can then open the jupyter notebook and run the cells during the tutorial. 
