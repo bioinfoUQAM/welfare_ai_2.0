@@ -46,7 +46,7 @@ Then navigate to one of the jupyter notebooks using the Notebook Dashboard and c
 
 Before running the notebooks, make sure to add the correct paths to the scores.csv files and Locomotion directories: 
 
-` ` ` 
+``` 
  
 # Get the list of locomotion data files 
 listLocomotionData = os.listdir("../Locomotion")
@@ -56,7 +56,7 @@ data = {}
 # Get the list of sensor names
 sensor_names = pd.read_excel("../Locomotion/" + listLocomotionData[0]).columns
 
- ` ` ` python
+ ``` 
 
 
  
