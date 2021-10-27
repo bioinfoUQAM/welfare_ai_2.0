@@ -19,7 +19,7 @@ This folder contains the final confusion matrices for the RF, CNN and LSTM train
  ## Running the code
  
 ### Configuration
-To run this code, you will need an Anaconda environment prepackaged with Python 3. This code was tested using python version 3.8.3. Python libraries including matplotlib, scikit-learn, numpy, keras, tensorflow and pandas must be installed in your python environment. 
+To run this code, you will need an Anaconda environment prepackaged with Python 3. This code was tested using python version 3.7.11. Python libraries including matplotlib, scikit-learn, numpy, keras, tensorflow and pandas must be installed in your python environment. 
 
 ### Python version
 * [python 3.7.11](https://www.python.org/downloads/release/python-3711/)
