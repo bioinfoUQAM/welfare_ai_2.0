@@ -34,7 +34,7 @@ You can install these libraries using  ```conda install -c conda-forge --library
 * tensorflow-gpu 2.1.0
 
 ## Running this Code
-Download all the files from the zip folder in this repository. Open a terminal and cd to the project folder (if you are using a python environment, make sure to activate it before). You can then open the jupyter notebook and run the cells during the tutorial. 
+Download all the files from the zip folder in this repository. Open a terminal and cd to the project folder (if you are using a python environment, make sure to activate it before). You can then open the jupyter notebook and run the cells. 
 
 ```git clone https://github.com/bioinfoUQAM/welfare_ai_2.0/``` 
 
