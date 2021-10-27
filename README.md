@@ -22,16 +22,16 @@ This folder contains the final confusion matrices for the RF, CNN and LSTM train
 To run this code, you will need an Anaconda environment prepackaged with Python 3. This code was tested using python version 3.8.3. Python libraries including matplotlib, scikit-learn, numpy, keras, tensorflow and pandas must be installed in your python environment. 
 
 ### Python version
-* [python 3.8.3](https://www.python.org/downloads/release/python-383/)
+* [python 3.7.11](https://www.python.org/downloads/release/python-3711/)
 
 ### Other libraries 
 You can install these libraries using  `conda install`. 
-* matplotlib 3.2.1
-* scikit-learn 0.22.1
-* numpy 1.18.1
-* pandas 1.0.4
-* keras 2.1.1
-* tensorflow 2.1.1
+* matplotlib 3.4.2
+* scikit-learn 0.24.2
+* numpy 1.19.2
+* pandas 1.2.4
+* keras-gpu 2.3.1
+* tensorflow gpu 2.1.0
 
 ## Running this Code
 Download all the files from the zip folder in this repository. Open a terminal and cd to the project folder (if you are using a python environment, make sure to activate it before). You can then open the jupyter notebook and run the cells during the tutorial. 
@@ -45,6 +45,18 @@ Download all the files from the zip folder in this repository. Open a terminal a
 Then navigate to one of the jupyter notebooks using the Notebook Dashboard and click on it to open. 
 
 Before running the notebooks, make sure to add the correct paths to the scores.csv files and Locomotion directories: 
+
+` ` ` 
+ 
+# Get the list of locomotion data files 
+listLocomotionData = os.listdir("../Locomotion")
+
+# Initialize the data dictionary
+data = {}
+# Get the list of sensor names
+sensor_names = pd.read_excel("../Locomotion/" + listLocomotionData[0]).columns
+
+ ` ` ` python
 
 
  
