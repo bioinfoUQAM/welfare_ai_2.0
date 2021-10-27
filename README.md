@@ -36,18 +36,17 @@ You can install these libraries using  ```conda install -c conda-forge --library
 ## Running this Code
 Download all the files from the zip folder in this repository. Open a terminal and cd to the project folder (if you are using a python environment, make sure to activate it before). You can then open the jupyter notebook and run the cells during the tutorial. 
 
-` ` ` git clone https://github.com/bioinfoUQAM/welfare_ai_2.0/ ` ` ` 
+```git clone https://github.com/bioinfoUQAM/welfare_ai_2.0/``` 
 
-` ` `  cd welfare_ai_2.0  ` ` ` 
+```cd welfare_ai_2.0``` 
   
-` ` `  python jupyter notebook  ` ` ` 
+```python jupyter notebook``` 
  
 Then navigate to one of the jupyter notebooks using the Notebook Dashboard and click on it to open. 
 
 Before running the notebooks, make sure to add the correct paths to the scores.csv files and Locomotion directories: 
 
 ```python
- 
 # Get the list of locomotion data files 
 listLocomotionData = os.listdir("../Locomotion")
 
