@@ -25,7 +25,7 @@ To run this code, you will need an Anaconda environment prepackaged with Python 
 * [python 3.7.11](https://www.python.org/downloads/release/python-3711/)
 
 ### Other libraries 
-You can install these libraries using  ` ` ` conda install -c conda-forge --library_name ` ` `.
+You can install these libraries using  ```conda install -c conda-forge --library_name```.
 * matplotlib 3.4.2
 * scikit-learn 0.24.2
 * numpy 1.19.2
